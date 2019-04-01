@@ -18,4 +18,4 @@ Ter o Ruby e Bundler instalado
 1. Faça o clone desse projeto com: git clone https://github.com/carolinafreiria/test-BomPraCredito.git
 2. Entre na pasta features do projeto e instale as dependências com: bundle install
 3. Volte para a pasta raiz do projeto (test_bompracredito)
-4. Rode o teste no terminal com o comando: cucumber -t @cadastro
+4. Rode o teste no terminal com o comando: cucumber -t @Cadastro
