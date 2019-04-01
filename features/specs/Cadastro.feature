@@ -23,9 +23,3 @@ Cenário: Cadastrar cliente - Estudante
     E preencho os dados pessoais do Estudante
     E preencho os dados residenciais do Estudante
     E preencho as informações para finalizar cadastro
-
-@ok
-Cenário: Validação de dados da página inicial 
-    Dado não preencho nenhum campo na tela inicial 
-    Quando eu clicar em continuar na tela inicial
-    Então deverá aparecer uma mensagem de erro em todos os campos obrigatórios 
