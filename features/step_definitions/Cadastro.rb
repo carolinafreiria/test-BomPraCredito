@@ -129,10 +129,3 @@ Dado("que seleciono o valor de dois mil reais em nove vezes") do
     @driver.find_element(id:'timeInAddress').send_keys("012018")
     @driver.find_element(id:'button-personal-info').click
   end
-  
-
-#   Então("deverá aparecer uma mensagem de erro em todos os campos obrigatórios") do
-#     binding.pry
-#     # @driver.find_element(:xpath, "//*[@id="ep1"]/div[1]/div/div[2]/span")
-#     # @driver.find_element(:xpath, "//*[@id="ep1"]/div[2]/div/div[2]/span")
-#   end
