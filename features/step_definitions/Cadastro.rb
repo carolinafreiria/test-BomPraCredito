@@ -14,7 +14,6 @@ Dado("que seleciono o valor de dois mil reais em nove vezes") do
 
   Quando("eu preencho os dados iniciais") do
     @driver.find_element(id:'name').send_keys("Ana Carolina")
-    binding.pry
     @driver.find_element(id:'email').send_keys("emailteste@gmail.com")
     @driver.find_element(id:'name').click
     @driver.find_element(id:'btnContinue').click
