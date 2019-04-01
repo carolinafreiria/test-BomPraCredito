@@ -11,5 +11,5 @@ Selenium
 
 Ruby
 
-#Pré Requisitos para execução
+# Pré Requisitos para execução
 Ter o Ruby e Bundler instalado
